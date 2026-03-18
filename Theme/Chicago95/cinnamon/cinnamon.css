@@ -8,7 +8,7 @@
  * ... contains a few cinnamon specific styles (rare occurences)
  * ###################################################################*/
 stage {
-  font-family: Ubuntu;
+  font-family: "MS W98 UI", Ubuntu;
   font-size: 10pt; }
 
 .cinnamon-link {
