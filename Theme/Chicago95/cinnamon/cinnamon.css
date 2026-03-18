@@ -110,6 +110,7 @@ StScrollBar StButton#hhandle {
   border-image: url("background-assets/menu.png") 6;
   border-radius: 0px; }
 
+/* Search input in the app menu */
 .menu StEntry {
   margin-top: 4px;
   padding: 2px;
@@ -342,6 +343,38 @@ StScrollBar StButton#hhandle {
 }
 .appmenu-system-button-shutdown:hover {
 }
+
+.appmenu-right-box {
+  spacing: 5px;
+  padding: 0px 0px; }
+
+.appmenu-category-button-greyed, .appmenu-category-button-selected, .appmenu-category-button, .appmenu-application-button-selected, .appmenu-application-button, .appmenu-sidebar-button {
+  padding: 7px;
+  spacing: 5px;
+  border-radius: 0; }
+
+.appmenu-application-button-label {
+}
+
+.appmenu-application-button-description {
+  color: #535353;
+}
+
+.appmenu-application-button:highlighted {
+}
+
+.appmenu-category-button-label {
+}
+
+.appmenu-category-button:hover {
+  background-color: #ffffff; }
+
+.appmenu-category-button-selected, .appmenu-application-button-selected {
+  color: white;
+  background-color: #000080; }
+
+.appmenu-search-entry-icon {
+  icon-size: 0.7em; }
 
 /* ===================================================================
  * Overview (workspace.js)
