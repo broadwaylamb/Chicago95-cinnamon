@@ -310,15 +310,37 @@ StScrollBar StButton#hhandle {
   color: #d54444;
 }
 
-#appMenu {
-  spacing: 4px;
-}
-
 .popup-menu-item-dot {
 }
 
 .system-status-icon {
   icon-size: 1.14em;
+}
+
+/* ===================================================================
+ * App menu
+ * ===================================================================*/
+.appmenu-sidebar {
+  padding: 15px 0px;
+  background-color: white;
+  border-radius: 0;
+  spacing: 5px;
+  border-image: url("frame/frame_menu.png") 6;
+}
+
+.appmenu-system-button {
+  padding: 8.4px;
+  border: none; }
+.appmenu-system-button-lock {
+  background-image: url("misc-assets/system-lock-screen.svg");
+}
+.appmenu-system-button-shutdown {
+}
+.appmenu-system-button-lock:hover {
+}
+.appmenu-system-button-logout:hover {
+}
+.appmenu-system-button-shutdown:hover {
 }
 
 /* ===================================================================
@@ -1124,7 +1146,6 @@ StScrollBar StButton#hhandle {
 .grouped-window-list-item-box:focus:hover,
 .grouped-window-list-item-box:focus:active:hover {
   font-weight: bold;
-  color: #fff;
   border-image: url("panel-assets/pressed.png") 6;
 }
 
