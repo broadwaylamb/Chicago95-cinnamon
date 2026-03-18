@@ -103,7 +103,7 @@ StScrollBar StButton#hhandle {
  * ===================================================================*/
 
 .menu {
-  padding: 0px;
+  padding: 10px;
   background-color: #c0c0c0;
   color: black;
   border: 2px solid transparent;
