@@ -1626,3 +1626,7 @@ StScrollBar StButton#hhandle {
   border-bottom-width: 0px;
   border-right-width: 0px;
 }
+
+button.text-button {
+  padding: 2px 10px;
+}
