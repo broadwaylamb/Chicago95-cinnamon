@@ -1583,6 +1583,13 @@ StScrollBar StButton#hhandle {
   margin: 6px;
 }
 
+.user-widget-label {
+    color: rgb(70, 70, 70);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px;
+}
+
 /* ===================================================================
  * OSD Popups
  * ===================================================================*/
